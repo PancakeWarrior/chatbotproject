@@ -7,6 +7,10 @@ h4 {
     margin: 0px;
 }
 
+body{
+  color: navy;
+}
+
 .btn-talk {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
