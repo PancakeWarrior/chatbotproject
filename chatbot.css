@@ -8,8 +8,13 @@ h4 {
 }
 
 body{
-  color: navy;
-  background-color: ghostwhite;
+  font-family: sans-serif;;
+  color: #000066;
+  background-color: #e6e6ff;
+}
+
+img {
+  image-orientation: center;
 }
 
 .btn-talk {
@@ -17,10 +22,10 @@ body{
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Arial;
-    color: #ffffff;
+    color: #e6e6ff;
     font-size: 14px;
     font-weight: normal;
-    background: #4caae8;
+    background: #4d4dff;
     padding: 5px;
     text-decoration: none;
     width: 18%;
@@ -29,7 +34,7 @@ body{
 }
 
 .btn-talk:hover {
-    background: #4fbcff;
+    background: #8080ff;
     text-decoration: none;
 }
 
@@ -81,7 +86,7 @@ body{
   background-color: #fff;
   border: 0px solid #C0C2C5;
   font-family: sans-serif;
-  color: #000;
+  color: #003366;
   padding: 5px;
   margin-right: 3px;
   text-decoration: none;
