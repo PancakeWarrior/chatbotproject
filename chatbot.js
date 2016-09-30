@@ -19,10 +19,18 @@ var response = {
   "what is your favorite plant?": "I like roses. ೭੧(❛▿❛✿)੭೨",
   "Goodbye": "Bye! ヾ(°∇°*)",
   "Bye": "Goodbye! ヾ(･ω･ )",
-  "what is your favorite season": "Fall/Autumn because I love the colors the leaves turn. ᕕ( ᐛ )ᕗ",
+  "what is your favorite season?": "Fall/Autumn because I love the colors the leaves turn. ᕕ( ᐛ )ᕗ",
   "what time is it?": returnTime()
 
 }
+function enter(event) {
+  var x = event.keyCode;
+  console.log(x);
+  if( x== 13){
+    speak();
+  }
+}
+
 
 function speak() {
   var userInput = $("#input").val();
