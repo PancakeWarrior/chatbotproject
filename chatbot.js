@@ -20,6 +20,7 @@ var response = {
   "Goodbye": "Bye! ヾ(°∇°*)",
   "Bye": "Goodbye! ヾ(･ω･ )",
   "what is your favorite season?": "Fall/Autumn because I love the colors the leaves turn. ᕕ( ᐛ )ᕗ",
+  "what is your favorite food?": "I don't have one at the moment. くコ:彡",
   "what time is it?": returnTime()
 
 }
