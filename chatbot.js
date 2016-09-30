@@ -1,6 +1,13 @@
+function returnTime(){
+  var now = new Date(Date.now());
+  return now;
+}
+
+
 var response = {
   "hi": "Hello! ( ･ω･)ﾉ",
   "hello": "Hi! ( ﾟ▽ﾟ)/",
+  "how is it going?": "I'm doing great! (｡･ω･｡)ﾉ♡",
   "how are you?": "I'm doing fine. (*•̀ᴗ•́*)و ̑̑",
   "what time is it?": "If you look in the bottom right hand corner of your laptop you will see. (－‸ლ)",
   "what is your favorite color?": "Red. ♥(ˆ⌣ˆԅ)",
@@ -9,11 +16,12 @@ var response = {
   "who are you?": "I am me. Who are you? ◑.◑",
   "how old are you?": "I was created in the month of September 2016. (*^▽^*)",
   "do you like drawing?": "Sure. ( ﾉ^ω^)ﾉﾟ",
-  "hOi": "hOi!!! °˖✧◝(ਠᴥਠ)◜✧˖°",
-  "Boi": "ఠ ͟ಠ",
+  "what is your horoscope?": "I'm a virgo. ♍",
+  "what is your favorite plant?": "I like roses. ೭੧(❛▿❛✿)੭೨",
   "Goodbye": "Bye! ヾ(°∇°*)",
   "Bye": "Goodbye! ヾ(･ω･ )",
-  "Do you watch Teah and Kial?": "Of course, what kind of question is that? ( ┐΄✹ਊ✹)┐"
+  "what is your favorite season": "Fall/Autumn because I love the colors the leaves turn. ᕕ( ᐛ )ᕗ",
+  "what time is it?": returnTime()
 
 }
 
